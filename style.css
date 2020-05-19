@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d1e4ff;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+span {
+    font-size: 30px;
+}
+
+.yellow {
+    background-color: #f1f792;
+}
+
+.green {
+    background-color: #84f582;
+}
