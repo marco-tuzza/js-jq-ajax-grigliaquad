@@ -28,10 +28,6 @@ $(".square").click(
 
                 var number = data.response
 
-                console.log(number);
-
-                console.log(currentSquare);
-
                 if (number <= 5) {
 
                     currentSquare.addClass("yellow")
