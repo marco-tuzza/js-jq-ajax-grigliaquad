@@ -5,130 +5,33 @@
         <title>Griglia Quadrati Ajax</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     </head>
     <body>
         <div class="grid">
-            <div class="row">
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-                <div class="square">
-                    <span></span>
-                </div>
-            </div>
         </div>
+        <script id="entry-template" type="text/x-handlebars-template">
+            <div class="row">
+                <div class="square">
+                    <span></span>
+                </div>
+                <div class="square">
+                    <span></span>
+                </div>
+                <div class="square">
+                    <span></span>
+                </div>
+                <div class="square">
+                    <span></span>
+                </div>
+                <div class="square">
+                    <span></span>
+                </div>
+                <div class="square">
+                    <span></span>
+                </div>
+            </div>
+        </script>
         <script src="main.js" charset="utf-8"></script>
     </body>
 </html>

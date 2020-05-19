@@ -1,4 +1,16 @@
-// Ad ogni click su un quadratino, parte una richiesta ajax per recuperare un numero random tra 1 e 9.
+var source   = $("#entry-template").html();
+
+var template = Handlebars.compile(source);
+
+
+for (var i = 0; i < 6; i++) {
+
+    var html = template()
+
+    $(".grid").append(html)
+}
+
+
 $(".square").click(
 
     function() {
@@ -38,4 +50,3 @@ $(".square").click(
         });
     }
 )
-// BONUS: generare la griglia in jQuery utilizzando handlebars
